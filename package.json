@@ -1,0 +1,21 @@
+{
+  "name": "@onamfc/pkg-inspect",
+  "version": "1.0.1",
+  "description": "CLI + API that scans a project and shows dependency size breakdowns",
+  "main": "src/analyzer.js",
+  "bin": {
+    "pkg-inspect": "./bin/pkg-inspect.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node src/analyzer.js"
+  },
+  "keywords": ["dependency", "size", "analyzer", "cli", "bundlephobia"],
+  "author": "onamfc",
+  "license": "MIT",
+  "dependencies": {
+    "picocolors": "^1.1.1",
+    "commander": "^12.0.0",
+    "ora": "^8.0.0"
+  }
+}
