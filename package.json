@@ -4,13 +4,19 @@
   "description": "CLI + API that scans a project and shows dependency size breakdowns",
   "main": "src/analyzer.js",
   "bin": {
-    "pkg-inspect": "./bin/pkg-inspect.js"
+    "pkg-inspect": "bin/pkg-inspect.js"
   },
   "type": "module",
   "scripts": {
     "test": "node src/analyzer.js"
   },
-  "keywords": ["dependency", "size", "analyzer", "cli", "bundlephobia"],
+  "keywords": [
+    "dependency",
+    "size",
+    "analyzer",
+    "cli",
+    "bundlephobia"
+  ],
   "author": "onamfc",
   "license": "MIT",
   "dependencies": {
