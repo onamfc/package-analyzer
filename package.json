@@ -10,6 +10,14 @@
   "scripts": {
     "test": "node src/analyzer.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onamfc/package-analyzer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/onamfc/package-analyzer/issues"
+  },
+  "homepage": "https://github.com/onamfc/package-analyzer#readme",
   "keywords": [
     "dependency",
     "size",
