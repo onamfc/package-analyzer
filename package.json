@@ -1,6 +1,6 @@
 {
   "name": "@onamfc/pkg-inspect",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI + API that scans a project and shows dependency size breakdowns",
   "main": "src/analyzer.js",
   "bin": {
